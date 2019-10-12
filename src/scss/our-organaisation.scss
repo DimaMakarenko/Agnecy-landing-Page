@@ -1,0 +1,103 @@
+.our-organaisation {
+  height: 688px;
+  background-color: #f6f2f2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .our-organaisation-navbar {
+    margin-top: 30px;
+    width: 1249px;
+    height: 89px;
+    background-color: #313030;
+
+    .our-organaisation-list {
+      display: flex;
+      height: 100%;
+      margin: 0;
+      justify-content: center;
+    }
+
+    .our-organaisation-list li {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      padding: 0 24px;
+      text-transform: uppercase;
+      align-items: center;
+      &:hover {
+        background-color: #ff3f40;
+      }
+
+      a {
+        text-decoration: none;
+        color: #e0e0e0;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.49px;
+      }
+    }
+    .our-organaisation-list li:first-child {
+      background-color: #ff3f40;
+    }
+  }
+
+  .our-organaisation-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 108px;
+    width: 1249px;
+
+    .our-organaisation-text {
+      display: flex;
+      flex-direction: column;
+      width: 590px;
+
+      h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 60px;
+        font-weight: 800;
+        color: #000000;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+      }
+
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #817f7f;
+        width: 512px;
+        line-height: 28px;
+      }
+
+      button {
+        width: 227px;
+        height: 55px;
+        border: none;
+        border-radius: 5px;
+        background-color: #ff2d2d;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.32px;
+        &:hover{
+            background-color: #d35252;
+
+        }
+      }
+    }
+
+    .our-organaisation-video {
+      width: 550px;
+      height: 100%;
+
+      img {
+        width: 100%;
+        height: 90%;
+      }
+      background-color: #c4c0b1;
+    }
+  }
+}

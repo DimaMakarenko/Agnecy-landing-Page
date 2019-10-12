@@ -6,7 +6,7 @@ const autoprefixer = require("gulp-autoprefixer");
 const cleanCSS = require("gulp-clean-css");
 const browserSync = require("browser-sync").create();
 
-const styles = ["./src/scss/main.scss"];
+const styles = ["./src/scss/main.scss", "./src/scss/our-organaisation.scss"];
 
 function css_style() {
   return gulp
