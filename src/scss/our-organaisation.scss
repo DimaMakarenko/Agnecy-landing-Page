@@ -47,7 +47,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 108px;
-    width: 1249px;
+    width: 1250px;
 
     .our-organaisation-text {
       display: flex;
@@ -92,6 +92,7 @@
     .our-organaisation-video {
       width: 550px;
       height: 100%;
+      box-shadow:  0  -20px 50px 10px rgba(0,0,0,0.25);
 
       img {
         width: 100%;
