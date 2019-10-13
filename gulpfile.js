@@ -9,7 +9,11 @@ const browserSync = require("browser-sync").create();
 const styles = [
   "./src/scss/main.scss",
   "./src/scss/our-organaisation.scss",
-  "./src/scss/provide.scss"
+  "./src/scss/provide.scss",
+  "./src/scss/feature-products.scss",
+  "./src/scss/get-in-touch.scss",
+  "./src/scss/out-team.scss",
+  "./src/scss/subscribe.scss"
 ];
 
 function css_style() {
