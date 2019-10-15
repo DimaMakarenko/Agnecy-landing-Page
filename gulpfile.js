@@ -13,7 +13,8 @@ const styles = [
   "./src/scss/feature-products.scss",
   "./src/scss/get-in-touch.scss",
   "./src/scss/out-team.scss",
-  "./src/scss/subscribe.scss"
+  "./src/scss/subscribe.scss",
+  "./src/scss/footer.scss"
 ];
 
 function css_style() {
