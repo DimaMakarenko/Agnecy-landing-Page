@@ -4,6 +4,16 @@
   align-items: center;
   width: 1250px;
   margin: 108px auto 0;
+  &:before {
+    content: "";
+    position: relative;
+    top:-108px;
+    left: 50%;
+    width: 1250px;
+    transform: translate(-50%, 0);
+    height: 2px;
+    background-color: #ececec;
+  }
 }
 .feature-products-text {
   display: flex;

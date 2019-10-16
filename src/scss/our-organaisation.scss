@@ -8,7 +8,8 @@
 
   .our-organaisation-navbar {
     margin-top: 30px;
-    width: 1249px;
+    width: 100%;
+    max-width: 1249px;
     height: 89px;
     background-color: #313030;
 
@@ -92,7 +93,7 @@
     .our-organaisation-video {
       width: 550px;
       height: 100%;
-      box-shadow:  0  -20px 50px 10px rgba(0,0,0,0.25);
+      box-shadow:  0  -20px 40px 10px rgba(0,0,0,0.25);
 
       img {
         width: 100%;

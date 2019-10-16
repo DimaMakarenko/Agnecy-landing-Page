@@ -14,7 +14,8 @@ const styles = [
   "./src/scss/get-in-touch.scss",
   "./src/scss/out-team.scss",
   "./src/scss/subscribe.scss",
-  "./src/scss/footer.scss"
+  "./src/scss/footer.scss",
+  "./src/scss/media.scss"
 ];
 
 function css_style() {
@@ -46,4 +47,4 @@ function browserWatch() {
   gulp.watch("./**").on("change", browserSync.reload);
 }
 
-gulp.task(browserWatch);
+gulp.task('default',browserWatch);

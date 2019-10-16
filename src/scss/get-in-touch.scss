@@ -1,13 +1,26 @@
+%drop-shadow {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
 .get-in-touch {
   width: 100%;
-  margin-left: 165px;
+  margin-bottom: 110px;
   margin-top: 100px;
+  @media screen and (min-width:1700px){
+    .get-in-text, .connect{
+      margin-left: 0;
+    }
+    width: 1500px;
+    margin: 100px auto;
+  }
 }
 .get-in-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 75px;
+  margin-left: 165px;
   h3 {
     margin: 0;
     font-size: 42px;
@@ -29,16 +42,16 @@
     width: 135px;
   }
 }
+
 .field {
   display: flex;
   flex-wrap: wrap;
   width: 731px;
   height: 481px;
   justify-content: space-between;
+  align-content: space-between;
   input {
-    border: none;
-    outline: none;
-    box-shadow: none;
+    @extend %drop-shadow;
     background-color: #e5e5e5;
     width: 291px;
     height: 69px;
@@ -49,23 +62,20 @@
     line-height: 28px;
   }
   textarea {
-    border: none;
-    outline: none;
-    box-shadow: none;
+    @extend %drop-shadow;
     width: 683px;
     background-color: #e5e5e5;
     height: 224px;
     padding-left: 48px;
     font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 28px;
     padding-top: 25px;
     border-radius: 5px;
   }
   button {
-    border: none;
-    outline: none;
-    box-shadow: none;
+    @extend %drop-shadow;
     width: 731px;
     height: 72px;
     border-radius: 5px;
@@ -75,5 +85,36 @@
     text-transform: uppercase;
     line-height: 34.06px;
     color: #ffffff;
+  }
+}
+.connect {
+  margin-left: 165px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-us {
+  width: 100%;
+  max-width: 577px;
+  height: 481px;
+  background-color: #2d2d2d;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 79px;
+  h3{
+    margin: 0;
+    color: #cccccc;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34.06px;
+    text-transform: uppercase;
+    letter-spacing: 0.32px;
+  }
+  p {
+    max-width: 285px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #cccccc;
   }
 }
